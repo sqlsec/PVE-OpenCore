@@ -12,8 +12,8 @@
 - **内核设置**
   - 修改仿冒 CPU 数据
     - 不清楚作者的这个数据哪来的，所以我换成自己比较熟悉的数据了
-    - Cpuid1Data：
-    - Cpuid1Mask：
+    - Cpuid1Data：55060A00 00000000 00000000 00000000
+    - Cpuid1Mask：FFFFFF00 00000000 00000000 00000000
   - 只留下面 3 个必备的 Kexts 并保持最新：
     - Liu.kext
     - WhateverGreen.kext
